@@ -8,7 +8,7 @@ import threading
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 NEWS_DATA_PATH = "data/news.json"
-CHATS = [{"chat_id": "@united_nations_news", "language": "en"}]
+CHATS = [{"chat_id": "@united_nations_news", "language": "en"}, {"chat_id": "@onu_actu", "language": "fr"}]
 
 def set_interval(func, sec):
     def func_wrapper():
